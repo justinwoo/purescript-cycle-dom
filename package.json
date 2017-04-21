@@ -1,0 +1,23 @@
+{
+  "name": "purescript-cycle-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pulp browserify -m Test.Main --to dist/main.js",
+    "watch": "pulp -w browserify -m Test.Main --to dist/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cycle/dom": "^17.1.0"
+  },
+  "devDependencies": {
+    "@cycle/run": "^3.1.0",
+    "xstream": "^10.5.0"
+  }
+}
